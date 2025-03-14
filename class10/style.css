@@ -1,0 +1,65 @@
+.heading {
+  font-size: 72px;
+  color: #333;
+  background-color: aqua;
+}
+.parent {
+  background-color: red;
+  height: 400px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 50px 1fr 50px;
+  /* justify-items: center; */
+  /* justify-content: center;
+  align-content: center; */
+  /* align-items: center; */
+  /* /* place-content: center; */
+  /* place-content: center; */
+  /* place-items: end; */
+  /* gap: 10px; */
+}
+.child1 {
+  background-color: blue;
+  /* height: 100%; */
+  /* width: 100%; */
+  color: white;
+  grid-column: 1;
+  grid-row: 2 / span 2;
+}
+
+.child2 {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  color: white;
+}
+
+.box {
+  height: 100px;
+  width: 200px;
+  background-color: blue;
+}
+.span {
+  color: white;
+  background-color: brown;
+}
+.h2 {
+  color: white;
+  background-color: brown;
+}
+.sidebar {
+  background-color: green;
+  grid-row: 1 / 3;
+}
+.header {
+  background-color: yellow;
+  /* grid-column: 1 / 3; */
+}
+.main {
+  background-color: aqua;
+}
+.footer {
+  background-color: orange;
+  grid-column: 1 / 3;
+}
